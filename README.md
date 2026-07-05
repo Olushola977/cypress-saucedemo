@@ -3,7 +3,7 @@
 ## Clone the project from GitHub
 
 ```bash
-git clone https://github.com/<your-username>/cypress-saucedemo.git
+git clone https://github.com/Olushola977/cypress-saucedemo.git
 cd cypress-saucedemo
 ```
 
