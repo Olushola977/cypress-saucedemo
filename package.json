@@ -1,0 +1,11 @@
+{
+  "name": "cypress-saucedemo-mini",
+  "private": true,
+  "scripts": {
+    "test:plain": "npm --prefix project-1-plain-tests run test -- --spec cypress/e2e/saucedemo.cy.js",
+    "test:pom": "npm --prefix project-2-pom run test -- --spec cypress/e2e/saucedemo.pom.cy.js"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  }
+}

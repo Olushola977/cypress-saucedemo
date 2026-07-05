@@ -1,0 +1,18 @@
+{
+  "name": "saucedemo-pom-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "description": "POM-style Cypress tests against saucedemo.com",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox",
+    "test:edge": "cypress run --browser edge",
+    "test:electron": "cypress run --browser electron",
+    "test:all-browsers": "npm run test:chrome && npm run test:firefox && npm run test:edge"
+  },
+  "devDependencies": {
+    "cypress": "15.18.0"
+  }
+}
